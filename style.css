@@ -1,0 +1,71 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global Styles */
+.honda-button{
+    background-color: #E76F51;
+    border: 2px solid transparent;
+}
+.honda-button:hover{
+    background-color: transparent;
+    border: 2px solid #E76F51;
+}
+.section-header{
+    font-size: 48px;
+}
+:root{
+    --yellow-color: #E76F51;
+}
+
+/***********************************\
+ ********* Header Area ************
+\***********************************/
+
+.hero-area{
+    background-color: #264653;
+    padding: 80px 0;
+}
+.hero-area p{
+    color: #E0E0E0;
+}
+
+/***********************************\
+ ********* Main Area ************
+\***********************************/
+
+/* Features Section */
+.featured-area h5{
+    color: var(--yellow-color)
+}
+.featured-images{
+    padding: 130px 0;
+}
+.featured-images img{
+    filter: grayscale(100%);
+}
+
+/* Clients Section */
+.clients-area{
+    padding: 0 0 130px 0;
+}
+.clients-area h3 span{
+    color: var(--yellow-color);
+}
+.client-rating i{
+    color: #e77c40;
+    font-size: 18px;
+}
+
+/* FAQ Section */
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+    background-color: transparent;
+    color: #000000;
+}
