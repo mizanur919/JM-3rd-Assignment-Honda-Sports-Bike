@@ -51,7 +51,7 @@
 .featured-images{
     padding: 130px 0;
 }
-.featured-images img{
+.black-and-white{
     filter: grayscale(100%);
 }
 
@@ -102,4 +102,16 @@
 }
 .contact-us h3 span{
     color: var(--yellow-color);
+}
+.social-media i{
+    font-size: 24px;
+    background-color: var(--yellow-color);
+    padding: 8px;
+    border: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+.social-media a:hover i{
+    background-color: transparent;
+    color: var(--yellow-color);
+    border: 2px solid var(--yellow-color);
 }
