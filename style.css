@@ -16,9 +16,13 @@
 .honda-button:hover{
     background-color: transparent;
     border: 2px solid #E76F51;
+    color: #E76F51;
 }
 .section-header{
     font-size: 48px;
+}
+.section-header h3 span{
+    color: var(--yellow-color);
 }
 :root{
     --yellow-color: #E76F51;
@@ -64,8 +68,38 @@
 }
 
 /* FAQ Section */
+.faq-area{
+    padding: 0 0 130px 0;
+}
+.faq-area h3 span{
+    color: var(--yellow-color);
+}
+.faq-rating i{
+    color: #e77c40;
+    font-size: 18px;
+}
 .accordion-button:not(.collapsed){
     box-shadow: none;
     background-color: transparent;
     color: #000000;
+}
+
+/* Products Area */
+.products-area{
+    padding: 0 0 130px 0;
+}
+.products-area h3 span{
+    color: var(--yellow-color);
+}
+.product-rating i{
+    color: #e77c40;
+    font-size: 12px;
+}
+
+/* Ccontact Us */
+.contact-us{
+    padding: 0 0 130px 0;
+}
+.contact-us h3 span{
+    color: var(--yellow-color);
 }
